@@ -1,5 +1,6 @@
 import '@fontsource/poppins/500.css'
 import '@fontsource/poppins/700.css'
+import { Input } from '@/components/ui/input.jsx'
 import blossomFlower from '../../assets/blossom-flower.svg'
 import googleLogo from '../../assets/icons-google-logo.svg'
 import appleLogo from '../../assets/icons-apple-logo.svg'
@@ -14,7 +15,8 @@ function SignUp() {
           <div className={styles.fields}>
             <div className={styles.field}>
               <label htmlFor="signup-name">Name</label>
-              <input
+              <Input
+                className={styles.input}
                 id="signup-name"
                 name="name"
                 type="text"
@@ -25,7 +27,8 @@ function SignUp() {
             </div>
             <div className={styles.field}>
               <label htmlFor="signup-email">Email address</label>
-              <input
+              <Input
+                className={styles.input}
                 id="signup-email"
                 name="email"
                 type="email"
@@ -36,7 +39,8 @@ function SignUp() {
             </div>
             <div className={styles.field}>
               <label htmlFor="signup-password">Password</label>
-              <input
+              <Input
+                className={styles.input}
                 id="signup-password"
                 name="password"
                 type="password"
