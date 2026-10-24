@@ -78,20 +78,20 @@
   text-decoration: none;
 }
 
-.field input {
+.input {
   box-sizing: border-box;
   width: 100%;
   height: var(--size-32);
   padding: 0 var(--size-10);
   border: var(--border-width) solid var(--color-muted);
-  border-radius: 0;
+  border-radius: var(--size-10);
   background-color: var(--color-surface);
   color: var(--color-text);
   font: inherit;
   font-size: var(--size-10);
 }
 
-.field input::placeholder {
+.input::placeholder {
   color: var(--color-muted);
   opacity: 1;
 }
