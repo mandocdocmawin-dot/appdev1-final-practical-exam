@@ -1,6 +1,8 @@
 import '@fontsource/poppins/500.css'
 import '@fontsource/poppins/700.css'
 import blossomFlower from '../../assets/blossom-flower.svg'
+import googleLogo from '../../assets/icons-google-logo.svg'
+import appleLogo from '../../assets/icons-apple-logo.svg'
 import styles from './SignUp.module.css'
 
 function SignUp() {
@@ -50,6 +52,20 @@ function SignUp() {
           </label>
           <button className={styles.submit} type="submit">Signup</button>
         </form>
+        <div className={styles.bottom}>
+          <div className={styles.divider}><span>Or</span></div>
+          <div className={styles.socialButtons}>
+            <button className={styles.socialButton} type="button">
+              <img src={googleLogo} alt="" width="24" height="24" />
+              <span>Sign in with Google</span>
+            </button>
+            <button className={styles.socialButton} type="button">
+              <img src={appleLogo} alt="" width="24" height="24" />
+              <span>Sign in with Apple</span>
+            </button>
+          </div>
+          <p className={styles.account}>Have an account? <a href="#login">Sign In</a></p>
+        </div>
       </section>
       <section className={styles.right} aria-label="Blossom image">
         <img
