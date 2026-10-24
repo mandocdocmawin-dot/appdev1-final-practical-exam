@@ -1,3 +1,24 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+/* Keep the existing browser defaults while adding Tailwind utilities. */
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-family);
+  --color-background: var(--color-surface);
+  --color-foreground: var(--color-text);
+  --color-border: var(--color-muted);
+  --color-input: var(--color-muted);
+  --color-ring: var(--color-primary);
+  --color-muted-foreground: var(--color-muted);
+  --color-destructive: var(--color-error);
+  --radius-lg: var(--size-10);
+}
+
 body {
   margin: 0;
   background-color: var(--color-surface);
