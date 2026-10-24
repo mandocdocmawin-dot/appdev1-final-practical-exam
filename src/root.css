@@ -1,0 +1,69 @@
+:root {
+  /* Colors */
+  --color-text: #000;
+  --color-surface: #fff;
+  --color-muted: #d9d9d9;
+  --color-primary: #3a5b22;
+  --color-link: #0f3dde;
+  --color-link-secondary: #0c2a92;
+  --color-divider: #f5f5f5;
+
+  /* Typography */
+  --font-family: 'Poppins', sans-serif;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height: 1.5;
+  --line-height-subtitle: 1.659375;
+  --line-height-small-link: 1.6594;
+
+  /* Shared layout and borders */
+  --page-max-width: 1536px;
+  --page-aspect-ratio: 1536 / 1042;
+  --page-columns: 650fr 886fr;
+  --blossom-width: 828px;
+  --signup-left-inset: 31.076923% 0 0 26.923077%;
+  --login-left-inset: 35.384615% 0 0 26.923077%;
+  --blossom-inset: 8.803612% 6.546275% 3.160271% 0;
+  --border-width: 1px;
+  --divider-thickness: 2px;
+  --checkbox-checked-shadow: inset 0 0 0 var(--border-width) var(--color-surface);
+
+  /* Responsive sizes: scale with the page, capped at Figma pixel values. */
+  --size-2: min(0.130208cqw, 2px);
+  --size-3: min(0.195313cqw, 3px);
+  --size-4: min(0.260417cqw, 4px);
+  --size-5-1: min(0.332031cqw, 5.1px);
+  --size-6: min(0.390625cqw, 6px);
+  --size-7-5: min(0.488281cqw, 7.5px);
+  --size-9: min(0.585938cqw, 9px);
+  --size-9-85: min(0.641276cqw, 9.85px);
+  --size-9-96: min(0.648438cqw, 9.96px);
+  --size-10: min(0.651042cqw, 10px);
+  --size-12: min(0.78125cqw, 12px);
+  --size-13: min(0.846354cqw, 13px);
+  --size-14: min(0.911458cqw, 14px);
+  --size-15-32: min(0.997396cqw, 15.32px);
+  --size-15-49: min(1.008464cqw, 15.49px);
+  --size-16: min(1.041667cqw, 16px);
+  --size-18-77: min(1.222005cqw, 18.77px);
+  --size-19-7: min(1.282552cqw, 19.7px);
+  --size-19-91: min(1.296224cqw, 19.91px);
+  --size-21-02: min(1.36849cqw, 21.02px);
+  --size-23: min(1.497396cqw, 23px);
+  --size-24: min(1.5625cqw, 24px);
+  --size-29-55: min(1.923828cqw, 29.55px);
+  --size-32: min(2.083333cqw, 32px);
+  --size-34: min(2.213542cqw, 34px);
+  --size-38-12: min(2.481771cqw, 38.12px);
+  --size-58: min(3.776042cqw, 58px);
+  --size-58-63: min(3.817057cqw, 58.63px);
+  --size-59-74: min(3.889323cqw, 59.74px);
+  --size-60-08: min(3.911458cqw, 60.08px);
+  --size-62-11: min(4.04362cqw, 62.11px);
+  --size-62-52: min(4.070313cqw, 62.52px);
+  --size-87-68: min(5.708333cqw, 87.68px);
+  --size-190: min(12.369792cqw, 190px);
+  --size-372: min(24.21875cqw, 372px);
+  --size-400: min(26.041667cqw, 400px);
+  --size-404: min(26.302083cqw, 404px);
+}
