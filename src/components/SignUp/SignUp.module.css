@@ -1,0 +1,26 @@
+.page {
+  display: grid;
+  grid-template-columns: 650fr 886fr;
+  width: 100%;
+  max-width: 1536px;
+  aspect-ratio: 1536 / 1042;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.left {
+  min-width: 0;
+}
+
+.right {
+  min-width: 0;
+  /* Figma: 78px above, 58px to the right, within an 886px column. */
+  padding: 8.803612% 6.546275% 3.160271% 0;
+}
+
+.blossom {
+  display: block;
+  width: 828px;
+  max-width: 100%;
+  height: auto;
+}
