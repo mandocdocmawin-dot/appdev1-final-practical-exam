@@ -11,8 +11,8 @@
 
 .left {
   min-width: 0;
-  /* Figma: title starts at x=175px, y=202px in the 650px left column. */
-  padding: 31.076923% 0 0 26.923077%;
+  /* Figma: Login title starts at x=175px, y=230px. */
+  padding: 35.384615% 0 0 26.923077%;
 }
 
 .title {
@@ -30,9 +30,19 @@
   padding: 8.803612% 6.546275% 3.160271% 0;
 }
 
+.subtitle {
+  width: min(24.21875cqw, 372px);
+  margin: min(0.332031cqw, 5.1px) 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: min(1.041667cqw, 16px);
+  font-weight: 500;
+  line-height: 1.659375;
+  color: #000;
+}
+
 .form {
   width: min(26.302083cqw, 404px);
-  margin-top: min(4.070313cqw, 62.52px);
+  margin-top: min(3.889323cqw, 59.74px);
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   color: #000;
